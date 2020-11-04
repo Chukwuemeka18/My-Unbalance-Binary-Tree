@@ -14,13 +14,8 @@ node;
 
 void print(node* pp){
 
-  //printf("%i\n",pp->num);
-
-  if (!pp->left && !pp->right) 
-    { 
-        printf("  %i",pp->num);  
-        //return; 
-    } 
+  printf("%i\n",pp->num);
+  
   
   if(pp->left !=NULL){
     print(pp->left);
